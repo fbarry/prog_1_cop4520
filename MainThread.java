@@ -83,7 +83,7 @@ public class MainThread {
         // Thread range
         private int lo, hi;
     
-        // COnstructor
+        // Constructor
         public SieveThread(int lo, int hi) {
             this.lo = lo;
             this.hi = Math.min(hi, MAX);
@@ -92,6 +92,7 @@ public class MainThread {
         // Thread method
         public void run() {
             // For all numbers up to square root
+            // Skip evens (those aren't prime... except 2)
             for (int i = 3; (long) i < SQRT_MAX; i += 2) {
     
                 // Find starting point
