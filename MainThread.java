@@ -1,13 +1,14 @@
 /*
 
 Fiona Barry
+01/28/2022
 COP 4520
 Programming Assignment 1: Parallel Prime Sieve
 
 I chose to implement the Sieve of Eratosthenes because (frankly) it was the
 easiest/most intutive to understand and parallelize.
 
-Each seize processes one section. The Sieve of Eratosthenes is useful for
+Each sieve processes one section. The Sieve of Eratosthenes is useful for
 finding primes in a range of numbers, so I take advantage of that.
 
 */
