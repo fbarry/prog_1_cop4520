@@ -93,7 +93,7 @@ public class MainThread {
         public void run() {
             // For all numbers up to square root
             // Skip evens (those aren't prime... except 2)
-            for (int i = 3; (long) i < SQRT_MAX; i += 2) {
+            for (int i = 3; i < SQRT_MAX; i += 2) {
     
                 // Find starting point
                 int temp = i * i;
